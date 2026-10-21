@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contenedor{
+    border: 1px solid paleturquoise;
+}
+
+.transiciones{
+    width: 150px;
+    height: 70px;  
+    border: 1px solid goldenrod;  
+    margin-bottom: 15px;
+    margin-left: 15px;
+    line-height: 70px;
+    font-size: 16px;
+}
+.sinefecto{
+    margin-top: 15px;
+}
+
+.sinefecto:hover{
+    transform: translateY(900px);    
+    transition: all 9s ease;
+    background-color: rebeccapurple;
+}
+.ease:hover{
+    width: 300px;
+    height: 140px;
+    background-color: aquamarine;
+    color:blue;
+    transform: scale(1.1);
+    transition: all 9s ease;
+    line-height: 140px;
+}
+
+.linear:hover{
+    width: 300px;
+    height: 140px;
+    background-color: cornflowerblue;
+    color: grey;
+    transform: translateX(650px);
+    transition: all 6s linear;
+    line-height: 140px;
+}
+
+.ease-in:hover{
+    width: 300px;
+    height: 140px;
+    background-color: rgb(28, 244, 64);
+    color:blue;
+    transform: rotate(360deg);
+    transition: all 9s ease-in;
+    line-height: 140px;
+}
+
+.ease-out:hover{
+    width: 300px;
+    height: 140px;
+    background-color: crimson;
+    color:blue;
+    transition: all 9s ease-out;
+    line-height: 140px;
+}
+.ease-in-out:hover{
+    width: 300px;
+    height: 140px;
+    background-color: olive;
+    color: black;
+    transform: translateY(-500px);  
+    transition: all 9s ease-in-out;
+    line-height: 140px;
+}
